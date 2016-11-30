@@ -17,10 +17,6 @@ The most commonly applied algorithm for auction trading would be Price/Time prio
 The FIFO algorithm uses price and time as the only criteria for filling an order. In this algorithm, all orders at the same price level are filled according to time priority. It is important to note that a user loses order priority when the order is changed in any of the following ways. Fills orders on a strict price and time priority; the first order at a price level is the first order matched.
 Price/Time priority, aka FIFO, ensures that all orders at the same price level are filled according to time priority; the first order at a price level is the first order matched.
 
-##Time Priority defined
-
-![1](https://cloud.githubusercontent.com/assets/17102225/20771278/c7ac37da-b716-11e6-92e5-ed9ab681b9e9.PNG)
-
 ##Design
 Rules
 
@@ -49,3 +45,13 @@ Rules
 9. Cancelled orders are removed from pending orders. 
 
 10. A testing unit with sample data.
+
+![image](https://cloud.githubusercontent.com/assets/17102225/20771445/6779fa7c-b717-11e6-9e8f-df0de6078da5.png)
+
+##Time Priority defined
+
+![1](https://cloud.githubusercontent.com/assets/17102225/20771278/c7ac37da-b716-11e6-92e5-ed9ab681b9e9.PNG)
+
+
+
+
