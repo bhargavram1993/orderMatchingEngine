@@ -14,5 +14,5 @@ The FIFO algorithm uses price and time as the only criteria for filling an order
 Price/Time priority, aka FIFO, ensures that all orders at the same price level are filled according to time priority; the first order at a price level is the first order matched.
 
 ##Time Priority defined
-
+![1](https://cloud.githubusercontent.com/assets/17102225/20771278/c7ac37da-b716-11e6-92e5-ed9ab681b9e9.PNG)
 
