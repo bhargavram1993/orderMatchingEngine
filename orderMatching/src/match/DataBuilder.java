@@ -9,7 +9,14 @@ import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.SessionFactory;
 public class DataBuilder {
-	
+	/**
+	 * File: DataBuilder.java
+	 * 
+	 * @author Bhargav Uppalapati.
+	 */
+	/**
+	 * DataBuilder.java contains random number generator for entries in to order table.
+	 */
 	public static boolean saved = false;
 	
 	// test data
@@ -19,7 +26,7 @@ public class DataBuilder {
 	static	String[] brokers = {"ms","ct","gl","bp","cn"};
 	static int[] quantity = {100,50,200,150,250,75};
 
-	// pending orders
+	// Array list to store Pending orders.
 	public static ArrayList<Order> pendingOrdersList = new ArrayList<>();
 	
 	public static String getScrip() {

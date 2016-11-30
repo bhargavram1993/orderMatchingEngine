@@ -7,6 +7,11 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 import java.util.concurrent.PriorityBlockingQueue;
+/**
+ * File: Matcher.java
+ * 
+ * @author Bhargav Uppalapati.
+ */
 
 public class MatchRunner {
 
@@ -37,7 +42,7 @@ public class MatchRunner {
 	
 	public static void main(String[] args) {
 		// build db, one time operaton
-		DataBuilder.buildPendingOrders(PENDINGORDERS);
+		//DataBuilder.buildPendingOrders(PENDINGORDERS);
 		
 		// build new orders
 		for(int i=0; i<NEWORDERS; i++) {

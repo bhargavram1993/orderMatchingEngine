@@ -8,7 +8,14 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-
+/**
+ * File: Matcher.java
+ * 
+ * @author Bhargav Uppalapati.
+ */
+/**
+ * Matcher.java contains logic to match buy and sell order count.
+ */
 public class Matcher extends Thread {
 	
 	private boolean BUY = true;
